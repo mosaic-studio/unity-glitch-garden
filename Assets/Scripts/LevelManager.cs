@@ -2,11 +2,22 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class LevelManager : MonoBehaviour {
+public class LevelManager : MonoBehaviour
+{
+
+	public float autoLoadNextLevelAfter;
+	public bool autoLevel = false;
+
+	private void Start()
+	{
+		if (autoLevel)
+		{
+			Invoke("LoadNextLevel", autoLoadNextLevelAfter);
+		}
+	}
 
 	public void LoadLevel(string name){
 		Debug.Log ("New Level load: " + name);
-		// Brick.breakableCount = 0;
 		SceneManager.LoadScene(name);
 	}
 

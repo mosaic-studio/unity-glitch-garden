@@ -6,5 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Levels/SplashScreen.unity
+    path: Assets/Levels/00 Splash Screen.unity
     guid: 78074133de26d6a46810400838dcd5b5
+  - enabled: 1
+    path: Assets/Levels/01 Start Menu.unity
+    guid: ad767dc3411c89844b34a2fefd3da7b4
+  - enabled: 1
+    path: Assets/Levels/01c Options.unity
+    guid: 9f84f85322dc4ed4cb71e869a6f52b08
+  - enabled: 1
+    path: Assets/Levels/Level 01.unity
+    guid: 9ecf856fc12a782418b64ed518fd6b4d
+  - enabled: 1
+    path: Assets/Levels/01a Win Scene.unity
+    guid: a44d22246f89a444aa18947fbadc6a9e
+  - enabled: 1
+    path: Assets/Levels/01b Lose Scene.unity
+    guid: 4460a42f74d46e048ae5e20add5e15ac
