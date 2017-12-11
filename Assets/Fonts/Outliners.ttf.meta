@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d184457761203b045a1b3f104769474a
+timeCreated: 1513000024
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Outliners
+  fontNames:
+  - Outliners
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3fdbc568e2a6d0f43ad2ccfc5f1f6a73, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
