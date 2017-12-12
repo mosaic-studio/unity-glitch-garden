@@ -24,8 +24,11 @@ public class MusicManager : MonoBehaviour
 
 	private void Start()
 	{
-		_audioSource = GetComponent<AudioSource>();
-		
+		if (!_audioSource)
+		{
+			_audioSource = GetComponent<AudioSource>();
+		}
+
 	}
 
 	private void OnEnable()
@@ -40,14 +43,21 @@ public class MusicManager : MonoBehaviour
 	
 	private void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
 	{
+		if (!_audioSource)
+		{
+			_audioSource = GetComponent<AudioSource>();
+		}
+		
 		AudioClip thisLevelMusic = levelMusicChangeArray[positionArrayMusic(scene.name)];
 		Debug.Log("Level Loaded: " + scene.name + " - Mode: " + mode + " - Music: "+
 		          thisLevelMusic);
-
-		if (thisLevelMusic == null || _audioSource == null) return;
-		_audioSource.clip = thisLevelMusic;
-		_audioSource.loop = true;
-		_audioSource.Play();
+		
+		if (thisLevelMusic)
+		{
+			_audioSource.clip = thisLevelMusic;
+			_audioSource.loop = true;
+			_audioSource.Play();
+		}
 	}
 
 	private int positionArrayMusic(string name)
