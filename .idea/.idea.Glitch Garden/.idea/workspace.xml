@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="205ef06f-81fc-4f8a-a850-88c3151d823d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/contentModel.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Glitch Garden/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MusicManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MusicManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MusicManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="295">
@@ -40,6 +38,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FadeIn.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FadeIn.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+              <folding>
+                <marker date="1513077415874" expanded="true" signature="6:40" ph="..." />
+                <marker date="1513077415874" expanded="true" signature="77:636" ph="{...}" />
+                <marker date="1513077415874" expanded="true" signature="224:267" ph="{...}" />
+                <marker date="1513077415874" expanded="true" signature="322:634" ph="{...}" />
+                <marker date="1513077415874" expanded="true" signature="367:584" ph="{...}" />
+                <marker date="1513077415874" expanded="true" signature="591:631" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -49,6 +64,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SplashScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadeIn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -56,6 +72,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SplashScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FadeIn.cs" />
       </list>
     </option>
   </component>
@@ -151,12 +168,12 @@
       <updated>1512995958593</updated>
       <workItem from="1512995961559" duration="1332000" />
       <workItem from="1513000699884" duration="1131000" />
-      <workItem from="1513030252963" duration="2988000" />
+      <workItem from="1513030252963" duration="4059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5451000" />
+    <option name="totallyTimeSpent" value="6522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,6 +331,21 @@
             <marker date="1513041240988" expanded="true" signature="1096:1196" ph="{...}" />
             <marker date="1513041240988" expanded="true" signature="1245:1462" ph="{...}" />
             <marker date="1513041240988" expanded="true" signature="1280:1440" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FadeIn.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <marker date="1513077415874" expanded="true" signature="6:40" ph="..." />
+            <marker date="1513077415874" expanded="true" signature="77:636" ph="{...}" />
+            <marker date="1513077415874" expanded="true" signature="224:267" ph="{...}" />
+            <marker date="1513077415874" expanded="true" signature="322:634" ph="{...}" />
+            <marker date="1513077415874" expanded="true" signature="367:584" ph="{...}" />
+            <marker date="1513077415874" expanded="true" signature="591:631" ph="{...}" />
           </folding>
         </state>
       </provider>
