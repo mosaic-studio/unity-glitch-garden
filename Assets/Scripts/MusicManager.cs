@@ -77,4 +77,9 @@ public class MusicManager : MonoBehaviour
 		}
 		return position;
 	}
+
+	public void ChangeVolume(float volume)
+	{
+		_audioSource.volume = volume;
+	}
 }

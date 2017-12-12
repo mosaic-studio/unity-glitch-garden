@@ -14,9 +14,12 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="FadeIn.cs" t="Include" />
           <e p="LevelManager.cs" t="Include" />
           <e p="MusicManager.cs" t="Include" />
           <e p="MusicPlayer.cs" t="Include" />
+          <e p="OptionsController.cs" t="Include" />
+          <e p="PlayerPrefsManager.cs" t="Include" />
           <e p="SplashScreen.cs" t="Include" />
         </e>
       </e>
