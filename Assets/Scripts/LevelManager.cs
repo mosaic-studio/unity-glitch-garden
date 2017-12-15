@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
 
 	private void Start()
 	{
-		if (autoLoadNextLevelAfter != 0f)
+		if (autoLoadNextLevelAfter > 0f)
 		{
 			Invoke("LoadNextLevel", autoLoadNextLevelAfter);
 		}
