@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent (typeof (Rigidbody2D))]
 public class Attacker : MonoBehaviour
 {
+	public float seenEverySeconds;
+	
 	private float currentSpeed;
 	private GameObject currentTarget;
 	private Animator _animator;
@@ -22,11 +24,6 @@ public class Attacker : MonoBehaviour
 		{
 			_animator.SetBool("isAttacking", false);
 		}
-	}
-
-	private void OnTriggerEnter2D(Collider2D other)
-	{
-		
 	}
 
 	public void SetSpeed(float speed)

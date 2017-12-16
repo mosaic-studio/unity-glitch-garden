@@ -16,12 +16,14 @@
         <e p="Scripts" t="Include">
           <e p="Attackers" t="Include">
             <e p="Attacker.cs" t="Include" />
+            <e p="AttackerSpawner.cs" t="Include" />
             <e p="Fox.cs" t="Include" />
             <e p="Lizard.cs" t="Include" />
           </e>
           <e p="Button.cs" t="Include" />
           <e p="Defenders" t="Include">
             <e p="Defender.cs" t="Include" />
+            <e p="DefenderSpawner.cs" t="Include" />
             <e p="Shooter.cs" t="Include" />
             <e p="Stone.cs" t="Include" />
           </e>

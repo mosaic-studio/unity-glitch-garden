@@ -6,9 +6,9 @@ public class Button : MonoBehaviour
 {
 
 	public GameObject defenderPrefab;
+	public static GameObject selectedDefender;
 	
 	private Button[] _buttons;
-	private static GameObject selectedDefender;
 
 	// Use this for initialization
 	void Start ()
