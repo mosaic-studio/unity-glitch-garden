@@ -2,17 +2,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
+[RequireComponent(typeof(Text))]
 public class DefenderSpawner : MonoBehaviour
 {
 
 	public Camera myCamera;
 
 	private GameObject _parent;
+	private StarsDisplay _starsDisplay;
 
 	private void Start()
 	{
 		_parent = GameObject.Find("Defenders");
+		_starsDisplay = GameObject.FindObjectOfType<StarsDisplay>();
 
 		if (!_parent)
 		{
@@ -24,12 +28,21 @@ public class DefenderSpawner : MonoBehaviour
 	{
 		Vector2 rawPos = CalculateWorldPointOfMouseClick();
 		Vector2 roundedPos = SnapToGrid(rawPos);
-		GameObject defender = Button.selectedDefender;
+		GameObject goDefender = Button.selectedDefender;
 		Quaternion zeroRotation = Quaternion.identity;
-		if (defender)
+		if (goDefender)
 		{
-			GameObject newDef = Instantiate(Button.selectedDefender, roundedPos, zeroRotation) as GameObject;
-			newDef.transform.parent = _parent.transform;
+			Defender defender = goDefender.GetComponent<Defender>();
+			if (_starsDisplay.UseStars(defender.startCost) == StarsDisplay.Status.SUCCESS)
+			{
+				// Spawn Defender
+				GameObject newDef = Instantiate(goDefender, roundedPos, zeroRotation) as GameObject;
+				newDef.transform.parent = _parent.transform;
+			}
+			else
+			{
+				Debug.Log("Insufficient stars");
+			}
 		}
 	}
 
